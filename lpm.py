@@ -6,9 +6,9 @@ import csv
 
 # 1. DB CONNECTION
 MYSQL_USER = 'Chandan'
-MYSQL_PASSWORD = 'Chandan%40%234321'  # URL-encoded!
-MYSQL_HOST = 'holistique-middleware.c9wdjmzy25ra.ap-south-1.rds.amazonaws.com'
-MYSQL_DB = 'Amazon'
+MYSQL_PASSWORD = ''  # URL-encoded!
+MYSQL_HOST = ''
+MYSQL_DB = ''
 
 engine = create_engine(
     f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}/{MYSQL_DB}",
@@ -127,4 +127,5 @@ with open(output_file, 'w', newline='', encoding='utf-8') as f:
                 }
                 writer.writerow(row)
 print(f"\nDone! Saved output to {output_file}")
+
 
