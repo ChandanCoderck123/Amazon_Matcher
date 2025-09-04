@@ -9,10 +9,10 @@ df['month'] = 'mar 25'
 
 # Connect to MySQL
 conn = mysql.connector.connect(
-    host='holistique-middleware.c9wdjmzy25ra.ap-south-1.rds.amazonaws.com',
-    user='Chandan',
-    password='Chandan@#4321',
-    database='Amazon'
+    host='',
+    user='',
+    password='',
+    database=''
 )
 cursor = conn.cursor()
 
@@ -43,4 +43,5 @@ conn.commit()
 cursor.close()
 conn.close()
 
-print("✅ Upload completed successfully.")
+print("Upload completed successfully.")
+
