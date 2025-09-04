@@ -1,0 +1,16 @@
+pandas
+thefuzz
+python-Levenshtein
+mysql-connector-python
+# pandas>=2.0.0
+# numpy>=1.23.0
+# sqlalchemy>=2.0.0
+# pymysql>=1.1.0
+# rapidfuzz>=3.0.0
+# tqdm>=4.60.0
+pandas
+numpy
+sqlalchemy
+pymysql
+rapidfuzz
+tqdm
